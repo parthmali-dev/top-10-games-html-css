@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(45deg,rgb(154, 154, 154),rgb(186, 186, 186));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-container{
+    height: auto;
+    width: 1130px;
+    background-color: orange;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 700px;
+    padding-left: 20px;
+    
+}
+.flex-box-1{
+    display: flex;
+
+
+}
+.flex-box-2{
+    display: flex;
+}
+.flex-box-3{
+    display: flex;
+}
+.flex-box-4{
+    display: flex;
+    width: 332px;
+}
+img{
+    height: 200px;
+    width: 290px;
+}
+
+.cards{
+    margin: 20px;
+    padding-left: 20px;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(50px);
+    background: linear-gradient(to left,rgb(255, 177, 33),rgb(241, 217, 110));
+    color: black;
+
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    transform: translateY(2px);
+    background-color: rgb(216, 216, 216);
+}
