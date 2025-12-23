@@ -1,12 +1,81 @@
 body{
     background:linear-gradient(45deg,rgb(154, 154, 154),rgb(186, 186, 186));
+    backdrop-filter: blur(-10%);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media only screen and (max-width: 455px){
+    
+    .main-container{
+        max-width: 1000px;;
+        height: 500px;
+        min-height: 100vh;
+        margin-top: 1000px;
+        position: absolute;
+        top: 170%;
+        left: 50%;
+        
+    }
+    .card-container{
+        margin-top: 100px;
+        max-width: max-content;
+        padding-right: 20px;
+        justify-content: flex-start;
+        
+    
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        margin: auto;
+        margin-left: 50px;
+        margin-top: 100px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+
+    }
+    .flex-box-1{
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    .flex-box-2{
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    .flex-box-3{
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    .flex-box-4{
+        display: flex;
+        flex-direction: column;
+        max-width: max-content;
+    }
+    body{
+        font-size: 22px;
+        width: max-content;
+    }
+    button{
+        width: 100%;
+        font-weight: bold;
+    }
+    img{
+        max-width: 250px;
+    }
+    
+}
+
 .card-container{
+    min-height: 100vh;
     height: auto;
     width: 1130px;
     background-color: orange;
-
+    flex-wrap: wrap;
+    gap: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -15,12 +84,11 @@ body{
     border-radius: 8px;
     margin-top: 700px;
     padding-left: 20px;
+    justify-content: center;
     
 }
 .flex-box-1{
     display: flex;
-
-
 }
 .flex-box-2{
     display: flex;
@@ -35,13 +103,14 @@ body{
 img{
     height: 200px;
     width: 290px;
+    display: block;
 }
 
 .cards{
     margin: 20px;
     padding-left: 20px;
     height: auto;
-    width: auto;
+    width: 100%;
     border: 1px solid black;
     font-size: 18px;
     padding: 20px;
